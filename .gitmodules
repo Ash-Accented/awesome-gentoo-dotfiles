@@ -1,0 +1,6 @@
+[submodule "awesome/lain"]
+	path = awesome/lain
+	url = https://github.com/lcpz/lain
+[submodule "awesome/modalbind"]
+	path = awesome/modalbind
+	url = https://github.com/crater2150/awesome-modalbind

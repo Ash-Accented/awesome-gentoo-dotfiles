@@ -1,0 +1,473 @@
+x11-libs/libdrm video_cards_intel video_cards_nouveau
+# required by x11-libs/libdrm-2.4.127::gentoo[video_cards_intel]
+# required by x11-base/xwayland-24.1.9::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[wayland,joystick]
+# required by games-util/steam-launcher (argument)
+>=x11-libs/libpciaccess-0.18.1 abi_x86_32
+sys-libs/ncurses -gpm
+# required by net-libs/nghttp2-1.65.0-r2::gentoo[jemalloc]
+# required by net-libs/libsoup-3.6.5::gentoo
+# required by dev-util/ostree-2025.6::gentoo[soup]
+# required by sys-apps/flatpak-1.16.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/jemalloc-5.3.0-r1 abi_x86_32
+# required by media-gfx/blender-4.4.3::gentoo
+# required by blender (argument)
+>=media-libs/freetype-2.14.1-r1 brotli
+# required by media-gfx/blender-4.4.3::gentoo[bullet]
+# required by blender (argument)
+>=sci-physics/bullet-3.21 double-precision
+# required by media-gfx/blender-4.4.3::gentoo[ffmpeg]
+# required by blender (argument)
+>=media-video/ffmpeg-7.1.3 lame vpx theora
+# required by media-gfx/blender-4.4.3::gentoo[fftw]
+# required by blender (argument)
+>=sci-libs/fftw-3.3.10-r1 threads
+# required by media-gfx/blender-4.4.3::gentoo[opensubdiv]
+# required by blender (argument)
+>=media-libs/opensubdiv-3.6.1 tbb
+# required by media-libs/freetype-2.14.1-r1::gentoo[brotli]
+# required by media-libs/openimageio-3.0.8.1::gentoo[truetype]
+# required by media-gfx/blender-4.4.3::gentoo
+# required by blender (argument)
+>=app-arch/brotli-1.1.0 abi_x86_32
+# required by media-libs/gst-plugins-bad-1.24.11::gentoo
+# required by media-plugins/gst-plugins-faad-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[aac]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/gst-plugins-base-1.24.11-r1 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[x264]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/gstreamer-1.24.11 abi_x86_32
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[unwind,-llvm-libunwind]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=sys-libs/libunwind-1.8.2-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-meta-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-flac-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[flac]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/gst-plugins-good-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[a52,dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-a52dec-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[aac]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-faad-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dts]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-dts-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[a52,dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/gst-plugins-ugly-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-dvdread-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[-vcd,dvd,mpeg]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-mpeg2dec-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-resindvd-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[flac]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-flac-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[mp3]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-mpg123-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[x264]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-x264-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[x264]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/x264-0.0.20240513 abi_x86_32
+# required by media-plugins/gst-plugins-resindvd-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/libdvdnav-6.1.1 abi_x86_32
+# required by media-libs/libdvdnav-6.1.1::gentoo
+# required by media-plugins/gst-plugins-resindvd-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/libdvdread-6.1.3 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dts]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/gst-plugins-bad-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.24.11::gentoo[orc]
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[a52,dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=dev-lang/orc-0.4.41 abi_x86_32
+# required by media-libs/libdvdread-6.1.3::gentoo[css]
+# required by media-plugins/gst-plugins-dvdread-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/libdvdcss-1.4.3 abi_x86_32
+# required by media-plugins/gst-plugins-mpeg2dec-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[-vcd,dvd,mpeg]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/libmpeg2-0.5.1-r3 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dts]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/libdca-0.0.7 abi_x86_32
+# required by media-plugins/gst-plugins-faad-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[aac]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/faad2-2.11.2 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[a52,dvd]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/a52dec-0.7.4-r9 abi_x86_32
+# required by media-libs/gst-plugins-base-1.24.11-r1::gentoo[X]
+# required by media-plugins/gst-plugins-cdparanoia-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=x11-libs/libXv-1.0.13 abi_x86_32
+# required by media-libs/gst-plugins-base-1.24.11-r1::gentoo[opengl,gles2]
+# required by media-plugins/gst-plugins-cdparanoia-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-libs/graphene-1.10.8-r1 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-plugins/gst-plugins-cdparanoia-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-cdparanoia-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by wine (argument)
+>=media-sound/cdparanoia-3.10.2-r8 abi_x86_32
+# required by dev-libs/libayatana-appindicator-0.5.94::gentoo
+# required by media-sound/spotify-1.2.77::gentoo
+# required by spotify (argument)
+>=dev-libs/libdbusmenu-16.04.0-r4 gtk3
+# required by media-video/handbrake-1.10.2::gentoo[gui]
+# required by handbrake (argument)
+>=gui-libs/gtk-4.18.6-r1 gstreamer
+# required by x11-drivers/xf86-video-amdgpu-25.0.0-r1::gentoo
+# required by xf86-video-amdgpu (argument)
+>=x11-libs/libdrm-2.4.127 video_cards_amdgpu
+# required by media-libs/mesa-25.2.8::gentoo[-video_cards_r600,-video_cards_r300,video_cards_radeonsi,-video_cards_radeon]
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[-video_cards_nvidia]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.127 video_cards_radeon
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[pulseaudio]
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-pulse-1.24.11 abi_x86_32
+# required by dev-libs/elfutils-0.194::gentoo[debuginfod]
+# required by sys-devel/binutils-2.45.1::gentoo[debuginfod]
+# required by app-emulation/wine-vanilla-11.0::gentoo
+# required by virtual/wine-0-r11::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/json-c-0.18 abi_x86_32
+# required by media-libs/mesa-25.3.3::gentoo[vulkan]
+# required by net-im/discord-0.0.123::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libdisplay-info-0.3.0 abi_x86_32
+# required by app-emulation/virtualbox-7.2.4-r1::gentoo[gui]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.10.2 wayland
+# required by net-misc/curl-8.19.0::gentoo[quic,openssl]
+# required by dev-lang/rust-bin-1.93.1::gentoo
+# required by sys-apps/fd-10.4.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-libs/ngtcp2-1.22.0 abi_x86_32
+# required by media-video/shotcut-25.08.16::gentoo
+# required by media-video/shotcut (argument)
+>=media-libs/mlt-7.34.1-r1 frei0r ffmpeg jack
+# required by media-plugins/frei0r-plugins-2.4.1-r1::gentoo[facedetect]
+# required by media-libs/mlt-7.34.1-r1::gentoo[frei0r]
+# required by media-video/shotcut-25.08.16::gentoo
+# required by media-video/shotcut (argument)
+>=media-libs/opencv-4.12.0-r1 contribdnn features2d contrib
+# required by net-libs/gnutls-3.8.12-r1::gentoo[post-quantum]
+# required by app-editors/emacs-30.2-r3::gentoo[ssl]
+# required by sys-apps/texinfo-7.3::gentoo
+# required by sys-fs/e2fsprogs-1.47.4::gentoo
+# required by sys-libs/libblockdev-3.4.0::gentoo
+# required by sys-fs/udisks-2.11.1::gentoo
+# required by kde-frameworks/solid-6.25.0::gentoo
+# required by kde-frameworks/kio-6.25.0::gentoo
+# required by app-admin/kio-admin-25.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/leancrypto-1.7.2-r3 abi_x86_32
+# required by media-gfx/blender-4.5.5::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-8.1 xvid opus
+# required by dev-python/wxpython-4.2.5::gentoo[-test]
+# required by sys-boot/woeusb-ng-0.2.12-r1::gentoo[gui,python_single_target_python3_13]
+# required by woeusb-ng (argument)
+>=x11-libs/wxGTK-3.2.8.1-r2 gstreamer
+# required by dev-qt/qtbase-6.11.1::gentoo[widgets,gtk,gui]
+# required by sys-auth/polkit-qt-0.201.1::gentoo
+# required by app-admin/kio-admin-26.04.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/gtk+-3.24.52 wayland
+# required by x11-misc/zim-0.76.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pygobject-3.56.3 python_targets_python3_13
+# required by dev-python/pygobject-3.56.3::gentoo[cairo]
+# required by gui-libs/gtk-4.20.4::gentoo[introspection]
+# required by net-p2p/nicotine+-3.3.10::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycairo-1.29.1 python_targets_python3_13
+# required by dev-python/pillow-heif-1.1.1::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/pillow-12.3.0 python_targets_python3_13
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/olefile-0.47 python_targets_python3_13
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/pybind11-3.1.0 python_targets_python3_13
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-84.0.0 python_targets_python3_13
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/wheel-0.48.0 python_targets_python3_13
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/gpep517-20 python_targets_python3_13
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/scikit-build-core-1.0.3 python_targets_python3_13
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-26.3 python_targets_python3_13
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/pathspec-1.1.1 python_targets_python3_13
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyproject-metadata-0.12.1 python_targets_python3_13
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatch-vcs-0.5.0 python_targets_python3_13
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/hatchling-1.32.0 python_targets_python3_13
+# required by app-emulation/virtualbox-7.2.14::gentoo[gui]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.11.1 -wayland
+# required by dev-python/setuptools-84.0.0::gentoo
+# required by dev-libs/glib-2.88.2::gentoo[introspection]
+# required by media-plugins/gst-plugins-cdparanoia-1.26.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.26.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-11.0::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-4.6.0 python_targets_python3_13
+# required by dev-python/setuptools-84.0.0::gentoo
+# required by dev-libs/glib-2.88.2::gentoo[introspection]
+# required by media-plugins/gst-plugins-cdparanoia-1.26.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.26.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-11.0::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-4.3.0 python_targets_python3_13
+# required by dev-python/setuptools-84.0.0::gentoo
+# required by dev-libs/glib-2.88.2::gentoo[introspection]
+# required by media-plugins/gst-plugins-cdparanoia-1.26.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.26.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-11.0::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-11.1.0 python_targets_python3_13
+# required by dev-python/setuptools-84.0.0::gentoo
+# required by dev-libs/glib-2.88.2::gentoo[introspection]
+# required by media-plugins/gst-plugins-cdparanoia-1.26.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.26.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-11.0::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/platformdirs-4.11.3 python_targets_python3_13
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-scm-10.2.1 python_targets_python3_13
+# required by dev-python/setuptools-84.0.0::gentoo
+# required by dev-libs/glib-2.88.2::gentoo[introspection]
+# required by media-plugins/gst-plugins-cdparanoia-1.26.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.26.11::gentoo[cdda]
+# required by app-emulation/wine-vanilla-11.0::gentoo[gstreamer]
+# required by virtual/wine-0-r11::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/trove-classifiers-2026.6.1.19 python_targets_python3_13
+# required by dev-python/wheel-0.48.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/flit-core-4.0.2 python_targets_python3_13
+# required by dev-python/setuptools-scm-10.2.1::gentoo[-test]
+# required by dev-python/lark-1.3.1::gentoo
+# required by dev-python/poetry-core-2.4.1::gentoo
+# required by dev-python/rich-15.0.0::gentoo
+# required by dev-python/pip-26.1.2-r1::gentoo
+# required by @autokey-gtk.set
+# required by @selected
+# required by @world (argument)
+>=dev-python/vcs-versioning-2.2.4 python_targets_python3_13
+# required by dev-python/hatchling-1.32.0::gentoo
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/editables-0.6 python_targets_python3_13
+# required by dev-python/hatchling-1.32.0::gentoo
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/pluggy-1.6.0 python_targets_python3_13
+# required by dev-python/hatchling-1.32.0::gentoo
+# required by dev-python/scikit-build-core-1.0.3::gentoo
+# required by dev-python/pybind11-3.1.0::gentoo
+# required by dev-python/pillow-12.3.0::gentoo
+# required by gui-apps/azote-1.16.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-python/tomlkit-0.15.1 python_targets_python3_13
+# required by dev-python/jaraco-text-4.3.0::gentoo
+# required by dev-python/pkg-resources-81.0.0::gentoo
+# required by dev-python/python-xlib-0.33::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-6.1.2 python_targets_python3_13
+# required by dev-python/gpep517-20::gentoo
+# required by dev-python/pyparsing-3.3.2::gentoo
+# required by sys-apps/flatpak-1.18.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/installer-1.0.1 python_targets_python3_13
+# required by dev-python/docutils-0.22.4::gentoo
+# required by net-wireless/bluez-5.87::gentoo[man]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pygments-2.20.0 python_targets_python3_13
+# required by dev-texlive/texlive-xetex-2024_p71515::gentoo
+# required by dev-texlive/texlive-xetex (argument)
+>=app-text/texlive-core-2024-r1 xetex

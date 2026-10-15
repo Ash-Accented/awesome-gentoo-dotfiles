@@ -1,0 +1,13 @@
+sys-kernel/linux-firmware linux-fw-redistributable
+sys-firmware/intel-microcode intel-ucode
+#Accepting licenses on a per package basis
+# required by sys-firmware/nvidia-firmware (argument)
+>=sys-firmware/nvidia-firmware-340.32-r1 NVIDIA-r2
+# required by discord (argument)
+>=net-im/discord-0.0.119-r1 all-rights-reserved
+# required by nvidia-drivers (argument)
+=x11-drivers/nvidia-drivers-580.95.05 NVIDIA-2025
+# required by nvidia-cuda-toolkit (argument)
+>=dev-util/nvidia-cuda-toolkit-12.9.1-r1 NVIDIA-CUDA
+# required by games-util/steam-launcher (argument)
+>=games-util/steam-launcher-1.0.0.85-r2 ValveSteamLicense

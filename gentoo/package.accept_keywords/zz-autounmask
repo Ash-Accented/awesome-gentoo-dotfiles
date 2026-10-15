@@ -1,0 +1,136 @@
+# package.accept_keywords# required by sys-firmware/nvidia-firmware (argument)
+=sys-firmware/nvidia-firmware-340.32-r1 ~amd64
+# required by cherrytree (argument)
+=app-text/cherrytree-1.4.0-r1 ~amd64
+# required by games-util/gamemode (argument)
+=games-util/gamemode-1.8.2 ~amd64
+# required by nvidia-cuda-toolkit (argument)
+=dev-util/nvidia-cuda-toolkit-12.9.1-r1 ~amd64
+# required by kvantum (argument)
+=x11-themes/kvantum-1.1.5 ~amd64
+# required by obs-studio (argument)
+=media-video/obs-studio-32.0.4 ~amd64
+# required by zellij (argument)
+=app-misc/zellij-0.43.1 ~amd64
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay
+# required by games-util/steam-launcher (argument)
+=sys-libs/libudev-compat-186-r1 ~amd64
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[udev,joystick]
+# required by games-util/steam-launcher (argument)
+=games-util/game-device-udev-rules-20240523 ~amd64
+# required by games-util/steam-launcher (argument)
+=games-util/steam-launcher-1.0.0.85-r2 ~amd64
+# required by pcmanfm (argument)
+=x11-misc/pcmanfm-1.3.2-r2 ~amd64
+# required by x11-misc/pcmanfm-1.3.2-r2::gentoo
+# required by pcmanfm (argument)
+=x11-libs/libfm-1.3.2-r1 ~amd64
+# required by minecraft-launcher (argument)
+=games-action/minecraft-launcher-1.0.1221 ~amd64
+# required by sys-apps/roccat-tools (argument)
+=sys-apps/roccat-tools-5.9.0-r102 ~amd64
+# required by sys-apps/roccat-tools-5.9.0-r102::gentoo
+# required by sys-apps/roccat-tools (argument)
+=dev-libs/libgaminggear-0.15.1 ~amd64
+# required by lazygit (argument)
+=dev-vcs/lazygit-0.58.0 ~amd64
+# required by net-im/zoom (argument)
+=net-im/zoom-6.7.2.6498 ~amd64
+# required by azote (argument)
+=gui-apps/azote-1.16.0 ~amd64
+# required by gui-apps/azote-1.16.0::guru[jpegxl]
+# required by azote (argument)
+=dev-python/pillow-jxl-plugin-1.3.2 ~amd64
+# required by pillow-heif (argument)
+=dev-python/pillow-heif-1.1.1 ~amd64
+# required by jdtls-bin (argument)
+=dev-java/jdtls-bin-1.54.0_p202511211413 ~amd64
+# required by app-misc/corectrl-1.5.1::guru
+# required by corectrl (argument)
+=dev-cpp/units-2.3.4 ~amd64
+# required by corectrl (argument)
+=app-misc/corectrl-1.5.1 ~amd64
+# required by media-sound/bluez-alsa (argument)
+=media-sound/bluez-alsa-4.3.1-r1 ~amd64
+# required by rocm-smi (argument)
+=dev-util/rocm-smi-7.1.0 ~amd64
+# required by dev-libs/rocm-opencl-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-build/rocm-cmake-7.1.0 ~amd64
+# required by dev-libs/rocm-opencl-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-libs/rocr-runtime-7.1.0 ~amd64
+# required by dev-libs/rocr-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-libs/roct-thunk-interface-7.1.0 ~amd64
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-libs/rocm-opencl-runtime-7.1.0 ~amd64
+# required by dev-libs/rocm-comgr-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-util/hipcc-7.1.0 ~amd64
+# required by dev-libs/rocm-opencl-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-libs/rocm-comgr-7.1.0 ~amd64
+# required by dev-libs/rocr-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime-7.1.0::gentoo
+# required by dev-libs/rocm-opencl-runtime (argument)
+=dev-libs/rocm-device-libs-7.1.0 ~amd64
+# required by zim (argument)
+=x11-misc/zim-0.76.3 ~amd64
+# required by syslog (argument)
+=dev-ruby/syslog-0.3.0 ~amd64
+# required by pnpm-bin (argument)
+=sys-apps/pnpm-bin-10.19.0 ~amd64
+# required by xcalib (argument)
+=x11-misc/xcalib-0.11 ~amd64
+# required by krita (argument)
+=media-gfx/krita-6.0.0_beta1-r1 ~amd64
+# required by helium-bin (argument)
+=www-client/helium-bin-0.9.4.1 ~amd64
+# required by cloudflare-warp (argument)
+=net-vpn/cloudflare-warp-2026.1.150.0 ~amd64
+# required by arduino-cli (argument)
+=dev-embedded/arduino-cli-1.3.1 ~amd64
+# required by mangohud (argument)
+=games-util/mangohud-0.8.2-r1 ~amd64
+# required by games-util/mangohud-0.8.2-r1::guru
+# required by mangohud (argument)
+=media-libs/implot-0.16-r2 ~amd64
+# required by games-util/mangohud-0.8.2-r1::guru
+# required by mangohud (argument)
+=media-libs/imgui-1.89.9-r4 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-gfx/krita-6.0.1 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-vcs/lazygit-0.61.1 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=app-misc/corectrl-1.5.2 ~amd64
+# required by media-video/shotcut (argument)
+=media-video/shotcut-25.08.16 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-gfx/krita-6.0.2_pre20260521 ~amd64
+# required by games-util/lutris-0.5.22-r1::gentoo[python_single_target_python3_13]
+# required by lutris (argument)
+=dev-python/pypresence-4.6.1 ~amd64
+# required by games-util/lutris-0.5.22-r1::gentoo[python_single_target_python3_13]
+# required by lutris (argument)
+=dev-python/moddb-0.13.0 ~amd64
+# required by lutris (argument)
+=games-util/lutris-0.5.22-r1 ~amd64
+# required by woeusb-ng (argument)
+=sys-boot/woeusb-ng-0.2.12-r1 ~amd64
+# required by gamescope (argument)
+=gui-wm/gamescope-3.16.23 ~amd64
+# required by gui-wm/gamescope-3.16.23::gentoo[wsi-layer]
+# required by gamescope (argument)
+=media-libs/vkroots-0_p20240430 ~amd64
+# required by yazi (argument)
+=app-misc/yazi-26.1.22 ~amd64
+# required by gui-libs/xdg-desktop-portal-termfilechooser (argument)
+=gui-libs/xdg-desktop-portal-termfilechooser-1.4.1 ~amd64
+# required by obs-studio (argument)
+=media-video/obs-studio-32.1.0-r1 ~amd64
+# required by media-video/obs-studio (argument)
+=media-video/obs-studio-32.2.2 ~amd64

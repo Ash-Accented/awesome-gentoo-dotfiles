@@ -1,0 +1,6 @@
+# Deliberate flags, portage generated flags in zz-autounmask
+
+sys-kernel/installkernel grub
+sys-kernel/installkernel dracut
+
+

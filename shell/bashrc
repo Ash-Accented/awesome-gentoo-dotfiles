@@ -1,0 +1,32 @@
+#/etc/skel/.bashrc
+#
+# This file is sourced by all *interactive* bash shells on startup,
+# including some apparently interactive shells such as scp and rcp
+# that can't tolerate any output.  So make sure this doesn't display
+# anything or bad things will happen !
+
+# Test for an interactive shell.  There is no need to set anything
+# past this point for scp and rcp, and it's important to refrain from
+# outputting anything in those cases.
+if [[ $- != *i* ]]; then
+  # Shell is non-interactive.  Be done now!
+  return
+fi
+source ~/.bash_aliases
+export QT_STYLE_OVERRIDE="kvantum"
+export QT_QPA_PLATFORMTHEME="qt6ct"
+export XDG_CURRENT_DESKTOP="awesome"
+export GTK_USE_PORTAL=1
+export GDK_DEBUG=portals
+export MANGOHUD=1
+export XDG_CONFIG_HOME="$HOME"
+# Put your fun stuff here.
+export PATH="$HOME/.pyenv/bin:$PATH"
+. "$HOME/.deno/env"
+source $HOME/.local/share/bash-completion/completions/deno.bash
+export PATH="$PATH:$HOME/.cargo/bin/"
+eval "$(leetcode completions)"
+eval "$(pyenv init -)"
+
+. "$HOME/.local/bin/env"
+source ~/esp/esp-idf/export.sh

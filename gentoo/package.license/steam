@@ -1,0 +1,17 @@
+games-util/steam-launcher ValveSteamLicense
+# required by minecraft-launcher (argument)
+>=games-action/minecraft-launcher-1.0.1221 Mojang
+# required by spotify (argument)
+>=media-sound/spotify-1.2.77 Spotify
+# required by net-im/zoom (argument)
+>=net-im/zoom-6.7.2.6498 all-rights-reserved
+# required by media-libs/amdgpu-pro-vulkan (argument)
+>=media-libs/amdgpu-pro-vulkan-25.10.2194696 AMD-GPU-PRO-EULA
+# required by packettracer (argument)
+>=gui-apps/packettracer-8.2.2-r1 Cisco
+# required by cloudflare-warp (argument)
+>=net-vpn/cloudflare-warp-2026.1.150.0 all-rights-reserved
+# required by google-chrome (argument)
+>=www-client/google-chrome-148.0.7778.167 google-chrome
+# required by media-fonts/corefonts (argument)
+>=media-fonts/corefonts-1-r7 MSttfEULA
