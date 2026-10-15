@@ -8,6 +8,10 @@
 ![showcase](https://github.com/user-attachments/assets/4f09770d-73f2-4884-9c68-9c0a29d253bf)
 
 ![showcase](https://github.com/user-attachments/assets/a323c614-c46a-45cb-a125-dfba5f9f282b)
+
+<img width="5358" height="1425" alt="image" src="https://github.com/user-attachments/assets/c9ce0cee-b368-4455-9298-077d3b64db84" />
+
+
 </div>
 
 - Awesome WM config in Lua, with [awesome-modalbind](https://github.com/crater2150/awesome-modalbind) for modal keybinds and [lain](https://github.com/lcpz/lain) for widgets
