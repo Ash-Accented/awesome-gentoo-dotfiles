@@ -9,7 +9,8 @@
 
 ![showcase](https://github.com/user-attachments/assets/a323c614-c46a-45cb-a125-dfba5f9f282b)
 
-<img width="5358" height="1425" alt="image" src="https://github.com/user-attachments/assets/c9ce0cee-b368-4455-9298-077d3b64db84" />
+<img width="5359" height="1431" alt="image" src="https://github.com/user-attachments/assets/10431234-90fc-42b8-9069-af4f7c2600a8" />
+
 
 
 </div>
