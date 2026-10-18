@@ -16,11 +16,11 @@ device_muted="Speaker"
 gentoo-pipewire-launcher restart &
 disown
 
-if [ -z "$primary_output" ] || [ -z "$secondary_output" ]; then
+if [ -z "$primary_output" ] || [ -z "$ultrawide_output" ]; then
   echo "Could not match both monitors" >&2
   exit 1
 fi
 
 xrandr --output "$primary_output" --primary --mode 1920x1080 --rate "$PRIMARY_HZ"
-xrandr --output "$secondary_output" --mode 3440x1440 --rate "$ULTRAWIDE_HZ" --left-of "$primary_output"
+xrandr --output "$ultrawide_output" --mode 3440x1440 --rate "$ULTRAWIDE_HZ" --left-of "$primary_output"
 amixer -c "$card_number" set "$device_muted" 0% mute
